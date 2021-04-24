@@ -1,0 +1,36 @@
+{
+  "name": "@kurpachsv/with-forwarded-ref",
+  "version": "0.0.1",
+  "description": "HOC for forward ref into child component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurpachsv/with-forwarded-ref.git"
+  },
+  "keywords": [
+    "react",
+    "hoc",
+    "ref"
+  ],
+  "author": "kurpachsv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurpachsv/with-forwarded-ref/issues"
+  },
+  "homepage": "https://github.com/kurpachsv/with-forwarded-ref#readme",
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "eslint": "7.25.0",
+    "rimraf": "3.0.2",
+    "typescript": "4.2.4"
+  },
+  "peerDepedencies": {
+    "react": "17.0.2"
+  }
+}
